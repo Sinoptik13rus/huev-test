@@ -44,7 +44,7 @@ class VisaMirTest {
     @Test
     fun visaMir5() {
         val amount = 10000000
-        val expectedComission = 75000
+        val expectedComission = 62000
 
         val actualComission = (mastercardMaestro(amount)).toInt()
         assertEquals(expectedComission, actualComission)
