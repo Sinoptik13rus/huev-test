@@ -5,7 +5,7 @@ import org.junit.Assert.*
 class VisaMirTest {
 
     @Test
-    fun visaMir() {
+    fun visaMir_comission() {
         val amount = 10000
         val expectedComission = 3500
 
@@ -14,7 +14,7 @@ class VisaMirTest {
     }
 
     @Test
-    fun visaMir1() {
+    fun visaMir_comission1() {
         val amount = 10000000
         val expectedComission = 75000
 
@@ -24,7 +24,7 @@ class VisaMirTest {
 
 
     @Test
-    fun visaMir2() {
+    fun visaMir_comission2() {
         val amount = 100_000_000
         val expectedComission = -1
 
@@ -33,7 +33,7 @@ class VisaMirTest {
     }
 
     @Test
-    fun visaMir4() {
+    fun visaMir_comission3() {
         val amount = 10000
         val expectedComission = 3500
 
@@ -42,7 +42,7 @@ class VisaMirTest {
     }
 
     @Test
-    fun visaMir5() {
+    fun visaMir_comission4() {
         val amount = 10000000
         val expectedComission = 62000
 

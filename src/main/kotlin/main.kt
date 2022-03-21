@@ -1,6 +1,3 @@
-import java.lang.Exception
-import kotlin.system.exitProcess
-
 val summInRub = 10_000
 val kopInRub = 100
 val amount = summInRub * kopInRub
@@ -13,7 +10,7 @@ val minAmount = 300
 val minAmountInCop = minAmount * kopInRub
 var percent = 0.0
 
-fun main(): Boolean {
+fun main(finishResult: Double): Boolean {
     val finishResult = amountCalculation(cardName, amount)
     if (finishResult == -1.0) {
         return false
